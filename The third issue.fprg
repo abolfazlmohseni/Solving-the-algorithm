@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="The third issue"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-03 01:13:23 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMDM7MDE6MDk6MTYgUE07MzIxMQ=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMDM7MDE6MTM6MjMgUE07MTszMzEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R, S" type="Real" array="False" size=""/>
+            <input variable="R"/>
+            <assign variable="S" expression="R*R*3.14"/>
+            <output expression="S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#1605;&#1587;&#1574;&#1604;&#1607; &#1576;&#1740;&#1587;&#1578; &#1608; &#1583;&#1608;&#1605;&#1605;"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-07 06:13:47 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMDc7MDY6MDM6MjYgUE07MzIxNQ=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMDc7MDY6MTM6NDcgUE07MTszMzI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="income, tax" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter The your income&quot;" newline="True"/>
+            <input variable="income"/>
+            <if expression="income&lt;= 5000000">
+                <then>
+                    <assign variable="tax" expression="0"/>
+                </then>
+                <else>
+                    <if expression="income &gt; 5000000 and income &lt;10000000">
+                        <then>
+                            <assign variable="tax" expression="(income - 5000000) *0.05"/>
+                        </then>
+                        <else>
+                            <if expression="income &gt; 10000000">
+                                <then>
+                                    <assign variable="tax" expression="(income -10000000)*0.1"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;your tax : &quot;" newline="False"/>
+            <output expression="tax" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
