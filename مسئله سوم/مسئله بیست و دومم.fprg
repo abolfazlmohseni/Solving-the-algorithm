@@ -4,9 +4,9 @@
         <attribute name="name" value="&#1605;&#1587;&#1574;&#1604;&#1607; &#1576;&#1740;&#1587;&#1578; &#1608; &#1583;&#1608;&#1605;&#1605;"/>
         <attribute name="authors" value="abolfazl"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-07 06:13:47 PM"/>
+        <attribute name="saved" value="2024-10-07 06:21:40 PM"/>
         <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMDc7MDY6MDM6MjYgUE07MzIxNQ=="/>
-        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMDc7MDY6MTM6NDcgUE07MTszMzI3"/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMDc7MDY6MjE6NDAgUE07MjszMzIw"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -19,7 +19,7 @@
                     <assign variable="tax" expression="0"/>
                 </then>
                 <else>
-                    <if expression="income &gt; 5000000 and income &lt;10000000">
+                    <if expression="income &gt; 5000000 and income &lt;=10000000">
                         <then>
                             <assign variable="tax" expression="(income - 5000000) *0.05"/>
                         </then>
