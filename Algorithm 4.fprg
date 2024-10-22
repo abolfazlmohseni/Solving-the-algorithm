@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 4"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 07:21:51 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjI7MDc6MTc6MzIgUE07MzIxNQ=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjI7MDc6MjE6NTEgUE07MTszMzE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1587;&#1607; &#1593;&#1583;&#1583; &#1711;&#1585;&#1601;&#1578;&#1607; &#1605;&#1740;&#1575;&#1606;&#1711;&#1740;&#1606; &#1570;&#1606;&#1607;&#1575; &#1585;&#1575; &#1581;&#1587;&#1575;&#1576; &#1705;&#1606;&#1583;."/>
+            <declare name="num1, num2, num3, average" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the first number&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;enter the Second number&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;enter the Third number&quot;" newline="True"/>
+            <input variable="num3"/>
+            <assign variable="average" expression="num1+num2+num3"/>
+            <output expression="&quot;average numbers:&quot;" newline="False"/>
+            <output expression="average" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 5"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 07:25:16 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjI7MDc6MjI6MjIgUE07MzIxMA=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjI7MDc6MjU6MTYgUE07MjszMzI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1608;&#1586;&#1606; &#1580;&#1587;&#1605; &#1585;&#1575; &#1576;&#1607; &#1705;&#1740;&#1604;&#1608; &#1711;&#1585;&#1605; &#1711;&#1585;&#1601;&#1578;&#1607; &#1576;&#1607; &#1711;&#1585;&#1605; &#1606;&#1605;&#1575;&#1740;&#1588; &#1583;&#1607;&#1583;."/>
+            <declare name="kg, g" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the weight in kilograms&quot;" newline="True"/>
+            <input variable="kg"/>
+            <assign variable="g" expression="kg*1000"/>
+            <output expression="&quot;Weight in grams:&quot;" newline="False"/>
+            <output expression="g" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
