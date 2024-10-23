@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 11"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-23 07:18:23 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MTU6MzIgUE07MzIxNA=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MTg6MjMgUE07MjszMzI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1583;&#1608; &#1593;&#1583;&#1583; &#1711;&#1585;&#1601;&#1578;&#1607; &#1705;&#1608;&#1670;&#1705; &#1578;&#1585;&#1740;&#1606; &#1575;&#1606;&#1607;&#1575; &#1585;&#1575; &#1606;&#1605;&#1575;&#1740;&#1588; &#1583;&#1607;&#1740;&#1583;"/>
+            <declare name="min, num1, num2" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <assign variable="min" expression="num1"/>
+            <input variable="num2"/>
+            <if expression="min&gt;num2">
+                <then>
+                    <assign variable="min" expression="num2"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="min" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 10"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-23 07:15:29 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MTM6NTAgUE07MzIxMg=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MTU6MjkgUE07MTszMzI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="time, income" type="Integer" array="False" size=""/>
+            <input variable="time"/>
+            <assign variable="income" expression="time*25000"/>
+            <output expression="income" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

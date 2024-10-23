@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 16"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-23 07:49:17 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MzE6NDMgUE07MzIxNA=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6NDk6MTcgUE07MTszMzMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <input variable="number"/>
+            <if expression="number&gt;=1 &amp;&amp; number&lt;=3">
+                <then>
+                    <output expression="&quot;spring&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="number&gt;=4 &amp;&amp; number&lt;=6">
+                        <then>
+                            <output expression="&quot;summer&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="number&gt;=7 &amp;&amp; number&lt;=9">
+                                <then>
+                                    <output expression="&quot;autumn&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="number&gt;=10 &amp;&amp; number&lt;=12">
+                                        <then>
+                                            <output expression="&quot;winter&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;undifind&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

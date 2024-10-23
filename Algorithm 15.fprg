@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 15"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-23 07:31:40 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MTc6MzIgUE07MzIxNg=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MzE6NDAgUE07MTszMzE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <comment text="&#1588;&#1605;&#1575;&#1585;&#1607; &#1585;&#1608;&#1586; &#1607;&#1601;&#1578;&#1607; &#1585;&#1575; &#1711;&#1585;&#1601;&#1578;&#1607; &#1548; &#1606;&#1575;&#1605; &#1585;&#1608;&#1586; &#1607;&#1601;&#1578;&#1607; &#1585;&#1575; &#1606;&#1605;&#1575;&#1740;&#1588; &#1583;&#1607;&#1583;.&#13;&#10;"/>
+            <input variable="number"/>
+            <if expression="number==1">
+                <then>
+                    <output expression="&quot;Saturday&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="number==2">
+                        <then>
+                            <output expression="&quot;Sunday&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="number==3">
+                                <then>
+                                    <output expression="&quot;Monday&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="number==4">
+                                        <then>
+                                            <output expression="&quot;Tuesday&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="number==5">
+                                                <then>
+                                                    <output expression="&quot;Wednesday&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="number==6">
+                                                        <then>
+                                                            <output expression="&quot;Thursday&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="number==7">
+                                                                <then>
+                                                                    <output expression="&quot;Friday&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot;undefind&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

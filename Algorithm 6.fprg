@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 6"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 07:30:25 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjI7MDc6MjU6MTggUE07MzIxOA=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjI7MDc6MzA6MjUgUE07MTszMzIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="w, kg, gr" type="Integer" array="False" size=""/>
+            <input variable="w"/>
+            <assign variable="kg" expression="[w/1000]"/>
+            <output expression="" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

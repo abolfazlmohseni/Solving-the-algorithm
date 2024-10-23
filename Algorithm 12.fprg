@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 12"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-23 07:22:10 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MTg6MjcgUE07MzIyMQ=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MjI6MTAgUE07MTszMzE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1662;&#1606;&#1580; &#1593;&#1583;&#1583; &#1711;&#1585;&#1601;&#1578;&#1607; &#1548; &#1576;&#1586;&#1585;&#1711;&#1578;&#1585;&#1740;&#1606; &#1570;&#1606;&#1607;&#1575; &#1585;&#1575; &#1606;&#1605;&#1575;&#1740;&#1588; &#1583;&#1607;&#1583;"/>
+            <declare name="i, max, number" type="Integer" array="False" size=""/>
+            <input variable="number"/>
+            <assign variable="max" expression="number"/>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <input variable="number"/>
+                <if expression="max&lt;number">
+                    <then>
+                        <assign variable="max" expression="number"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

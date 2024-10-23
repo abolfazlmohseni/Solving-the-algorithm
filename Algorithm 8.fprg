@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 8"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-23 07:10:53 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MDY6NTQgUE07MzIxOA=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MTA6NTMgUE07MTszMzIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1740;&#1705; &#1593;&#1583;&#1583; &#1583;&#1608; &#1585;&#1602;&#1605;&#1740; &#1711;&#1585;&#1601;&#1578;&#1607; &#1605;&#1602;&#1604;&#1608;&#1576; &#1570;&#1606;&#1585;&#1575; &#1606;&#1605;&#1575;&#1740;&#1588; &#1583;&#1607;&#1583;.&#13;&#10;&#13;&#10;"/>
+            <declare name="num, a, b, c" type="Integer" array="False" size=""/>
+            <input variable="num"/>
+            <assign variable="a" expression="num/10"/>
+            <assign variable="b" expression="num-a*10"/>
+            <assign variable="c" expression="b*10+a"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

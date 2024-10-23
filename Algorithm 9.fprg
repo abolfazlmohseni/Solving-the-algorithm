@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 9"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-23 07:13:45 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MTA6NTcgUE07MzIxNg=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MTM6NDUgUE07MTszMzI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1602;&#1740;&#1605;&#1578; &#1607;&#1585; &#1605;&#1578;&#1585; &#1605;&#1585;&#1576;&#1593; &#1740;&#1705; &#1586;&#1605;&#1740;&#1606; 4000000 &#1585;&#1740;&#1575;&#1604; &#1575;&#1587;&#1578;.&#1575;&#1604;&#1711;&#1608;&#1585;&#1740;&#1578;&#1605;&#1740; &#1576;&#1606;&#1608;&#1740;&#1587;&#1740;&#1583; &#1705;&#1607; &#1591;&#1608;&#1604; &#1608; &#1593;&#1585;&#1590; &#1586;&#1605;&#1740;&#1606; &#1585;&#1575; &#1711;&#1585;&#1601;&#1578;&#1607; &#1602;&#1740;&#1605;&#1578; &#1705;&#1604; &#1586;&#1605;&#1740;&#1606; &#1585;&#1575; &#1581;&#1587;&#1575;&#1576; &#1606;&#1605;&#1575;&#1740;&#1583;.&#13;&#10;"/>
+            <declare name="w, h, price, area" type="Integer" array="False" size=""/>
+            <input variable="w"/>
+            <input variable="h"/>
+            <assign variable="area" expression="w*h"/>
+            <assign variable="price" expression="area*4000000"/>
+            <output expression="price" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

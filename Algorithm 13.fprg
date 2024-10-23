@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 13"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-23 07:24:42 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MjI6MTMgUE07MzIxMQ=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjM7MDc6MjQ6NDIgUE07MTszMzIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1740;&#1705; &#1593;&#1583;&#1583; &#1711;&#1585;&#1601;&#1578;&#1607; &#1605;&#1588;&#1582;&#1589; &#1705;&#1606;&#1583; &#1586;&#1608;&#1580; &#1575;&#1587;&#1578; &#1740;&#1575; &#1601;&#1585;&#1583;&#1567;&#13;&#10;"/>
+            <declare name="number, statos" type="Integer" array="False" size=""/>
+            <input variable="number"/>
+            <assign variable="statos" expression="number%2"/>
+            <if expression="statos==0">
+                <then>
+                    <output expression="&quot;couple&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;person&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
