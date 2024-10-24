@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 17"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-24 02:12:12 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjQ7MDE6MDc6NTcgUE07MzIxNw=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjQ7MDI6MTE6MzAgUE07MTthYm9sZmF6bDtERVNLVE9QLURWTjJPRFM7MjAyNC0xMC0yNDswMjowMToxNyBQTTs2NTc5"/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjQ7MDI6MTI6MTIgUE07MTszMzEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="by, bm, bd" type="Integer" array="False" size=""/>
+            <input variable="by"/>
+            <input variable="bm"/>
+            <input variable="bd"/>
+            <declare name="cy, cm, cd" type="Integer" array="False" size=""/>
+            <input variable="cy"/>
+            <input variable="cm"/>
+            <input variable="cd"/>
+            <declare name="td, tm, ty, days" type="Integer" array="False" size=""/>
+            <if expression="cd&lt;bd">
+                <then>
+                    <if expression="cm&lt;=6">
+                        <then>
+                            <assign variable="cd" expression="cd+31"/>
+                        </then>
+                        <else>
+                            <assign variable="cd" expression="cd+30"/>
+                            <assign variable="cm" expression="cm-1"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <assign variable="td" expression="cd-bd"/>
+            <if expression="cm&lt;bm">
+                <then>
+                    <assign variable="cm" expression="cm+12"/>
+                    <assign variable="cy" expression="cy-1"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="tm" expression="cm-bm"/>
+            <assign variable="ty" expression="cy-by"/>
+            <assign variable="days" expression="td"/>
+            <if expression="tm&gt;6">
+                <then>
+                    <assign variable="days" expression="Days + (Tm * 30 + 6)"/>
+                </then>
+                <else>
+                    <assign variable="days" expression="Days + (Tm * 31)"/>
+                </else>
+            </if>
+            <assign variable="days" expression="days+(Ty * 365)"/>
+            <output expression="days" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
