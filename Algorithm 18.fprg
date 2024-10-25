@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 18"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-25 09:12:51 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjU7MDk6MDI6MTcgUE07MzIxNw=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTAtMjU7MDk6MTI6NTEgUE07MTszMzI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1578;&#1575;&#1585;&#1740;&#1582; &#1585;&#1608;&#1586;(&#1588;&#1605;&#1575;&#1585;&#1607; &#1605;&#1575;&#1607; &#1608; &#1585;&#1608;&#1586;) &#1585;&#1575; &#1711;&#1585;&#1601;&#1578;&#1607; &#1605;&#1588;&#1582;&#1589; &#1705;&#1606;&#1583; &#1670;&#1606;&#1583;&#1605;&#1740;&#1606; &#1585;&#1608;&#1586; &#1587;&#1575;&#1604; &#1575;&#1587;&#1578;.(&#1605;&#1579;&#1575;&#1604; 12/3 &#1607;&#1601;&#1578;&#1575;&#1583;&#1608; &#1670;&#1607;&#1575;&#1585;&#1605;&#1740;&#1606; &#1585;&#1608;&#1586; &#1587;&#1575;&#1604; &#1575;&#1587;&#1578;)&#13;&#10;&#13;&#10;"/>
+            <declare name="day, mon, days" type="Integer" array="False" size=""/>
+            <input variable="mon"/>
+            <input variable="day"/>
+            <if expression="mon&gt;6">
+                <then>
+                    <assign variable="days" expression="day+mon*30"/>
+                </then>
+                <else>
+                    <assign variable="days" expression="day+mon*31"/>
+                </else>
+            </if>
+            <output expression="days" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
