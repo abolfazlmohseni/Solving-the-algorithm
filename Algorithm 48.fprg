@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 48"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-02 06:59:57 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTEtMDI7MDY6MzE6MTggUE07MzIxMw=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTEtMDI7MDY6NTk6NTcgUE07MTszMzM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, delta, x, x1, x2, RealPart, ImaginaryPart" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="b*b-4*a*c"/>
+            <if expression="delta&gt;0">
+                <then/>
+                <else>
+                    <if expression="delta==0">
+                        <then>
+                            <assign variable="x" expression="-b/(2*a)"/>
+                            <output expression="x" newline="True"/>
+                            <breakpoint expression="" always="True"/>
+                        </then>
+                        <else>
+                            <assign variable="RealPart" expression="-b / (2 * a)"/>
+                            <assign variable="ImaginaryPart" expression="sqrt(-delta) / (2 * a)"/>
+                            <output expression="&quot;&#1585;&#1740;&#1588;&#1607; &#1575;&#1608;&#1604;: &quot; + RealPart + ImaginaryPart + &quot;i&quot;" newline="True"/>
+                            <output expression="&quot;&#1585;&#1740;&#1588;&#1607; &#1583;&#1608;&#1605;: &quot; + RealPart  + ImaginaryPart + &quot;i&quot;" newline="True"/>
+                            <breakpoint expression="" always="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="x1" expression="(-b + sqrt(delta)) / (2 * a)"/>
+            <assign variable="x2" expression="(-b - sqrt(delta)) / (2 * a)"/>
+            <output expression="x1" newline="True"/>
+            <output expression="x2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

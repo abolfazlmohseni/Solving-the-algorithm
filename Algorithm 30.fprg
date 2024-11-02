@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algorithm 30"/>
+        <attribute name="authors" value="abolfazl"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-02 09:43:04 PM"/>
+        <attribute name="created" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTEtMDI7MDk6NDE6MzMgUE07MzIxNA=="/>
+        <attribute name="edited" value="YWJvbGZhemw7REVTS1RPUC1EVk4yT0RTOzIwMjQtMTEtMDI7MDk6NDM6MDQgUE07MTszMzIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#1740;&#1705; &#1593;&#1583;&#1583; &#1711;&#1585;&#1601;&#1578;&#1607; &#1578;&#1605;&#1575;&#1605; &#1575;&#1593;&#1583;&#1575;&#1583; &#1591;&#1576;&#1740;&#1593;&#1740; &#1586;&#1608;&#1580; &#1705;&#1608;&#1670;&#1705;&#1578;&#1585; &#1575;&#1586; &#1570;&#1606;&#1585;&#1575; &#1670;&#1575;&#1662; &#1606;&#1605;&#1575;&#1740;&#1583;."/>
+            <declare name="i, n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="i" expression="2"/>
+            <while expression="i&lt;n">
+                <output expression="i" newline="True"/>
+                <assign variable="i" expression="i+2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
